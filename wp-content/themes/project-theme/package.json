@@ -1,0 +1,61 @@
+{
+	"name": "born-digital-theme",
+	"version": "1.0.0",
+	"description": "Born Digital Theme",
+	"main": "index.js",
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build --production"
+	},
+	"engines": {
+		"npm": ">=2.1.8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/freshforces-borndigital/project-starter/"
+	},
+	"keywords": [
+		"wordpress",
+		"theme",
+		"framework",
+		"borndigital",
+		"starter"
+	],
+	"author": "Born Digital",
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/freshforces-borndigital/project-starter/issues"
+	},
+	"homepage": "https://github.com/freshforces-borndigital/project-starter/",
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.8.3",
+		"@babel/polyfill": "7.8.3",
+		"@babel/preset-env": "^7.9.0",
+		"babel-loader": "^8.0.6",
+		"browser-sync": "latest",
+		"core-js": "2",
+		"dotenv": "8.2.0",
+		"event-stream": "^4.0.1",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "latest",
+		"gulp-babel": "8.0.0",
+		"gulp-bower": "latest",
+		"gulp-concat": "^2.6.1",
+		"gulp-if": "^3.0.0",
+		"gulp-jshint": "^2.1.0",
+		"gulp-livereload": "latest",
+		"gulp-notify": "^3.2.0",
+		"gulp-plumber": "^1.2.0",
+		"gulp-rename": "latest",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "latest",
+		"gulp-uglify": "^3.0.1",
+		"gulp-uglify-es": "^1.0.4",
+		"gulp-watch": "latest",
+		"jshint": "^2.11.0",
+		"sass": "^1.15.1",
+		"webpack": "^4.41.6",
+		"yargs": "^15.1.0"
+	}
+}
