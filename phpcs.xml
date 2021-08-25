@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Born Digital">
+	<description>Custom ruleset for Born Digital platform</description>
+
+	<rule ref="WordPress">
+		<exclude name="Squiz.PHP.CommentedOutCode" />
+	</rule>
+</ruleset>

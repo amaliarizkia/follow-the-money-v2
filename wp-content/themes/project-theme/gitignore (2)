@@ -1,0 +1,11 @@
+# ignore node
+node_modules
+
+# ignore generated files by node
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# add configuration files
+!.babelrc
+!.browserslistrc
